@@ -1,3 +1,7 @@
+## Overview
+This project is a simple flashcard app built using SwiftUI. The app allows users to create, view, and manage a deck of flashcards. Users can swipe through the cards, toggle between the question and answer, and categorize cards for further practice. The project demonstrates the declarative nature of SwiftUI and explores core concepts like state management, gestures, and view modifiers. The app also supports saving data across sessions and enables users to delete flashcards.
+
+
 ## What I Learned
 * SwiftUI’s Declarative Approach: Defined the UI by describing its desired state, allowing SwiftUI to manage updates automatically.
 * Anatomy of a SwiftUI App: Replaced storyboards and view controllers with @main, App, and ContentView to structure the app.
