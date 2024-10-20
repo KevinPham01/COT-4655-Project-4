@@ -15,9 +15,9 @@ This project is a simple Memory Game built using SwiftUI. The game displays a gr
 Users can tap on a card to flip it over and reveal the front.
 Tapping a second card that doesn't match flips both back down.
 Matching cards disappear from the grid.
-*Reset button:
+* Reset button:
 A reset button is available for users to shuffle and restart the game with all cards facedown again.
-*Game logic:
+* Game logic:
 The game automatically checks if two selected cards match.
 Non-matching cards return to the facedown position, and matching pairs are removed from the grid.
 
