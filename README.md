@@ -12,9 +12,9 @@ This project is a simple Memory Game built using SwiftUI. The game displays a gr
 ## Features
 * Initial grid of face-down cards: On launching, a grid of cards is displayed, all facedown, indicating the start of the game.
 * Card flipping:
-*Users can tap on a card to flip it over and reveal the front.
-* Tapping a second card that doesn't match flips both back down.
-* Matching cards disappear from the grid.
+Users can tap on a card to flip it over and reveal the front.
+Tapping a second card that doesn't match flips both back down.
+Matching cards disappear from the grid.
 *Reset button:
 A reset button is available for users to shuffle and restart the game with all cards facedown again.
 *Game logic:
