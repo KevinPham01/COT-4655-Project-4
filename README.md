@@ -1,23 +1,26 @@
-# ios102-Lab 4-Fall24
+# ios102-Project4-Fall24
 ## Overview
-This project is a simple flashcard app built using SwiftUI. The app allows users to create, view, and manage a deck of flashcards. Users can swipe through the cards, toggle between the question and answer, and categorize cards for further practice. The project demonstrates the declarative nature of SwiftUI and explores core concepts like state management, gestures, and view modifiers. The app also supports saving data across sessions and enables users to delete flashcards.
+This project is a simple Memory Game built using SwiftUI. The game displays a grid of cards, initially facedown, that the user can tap to reveal. The objective is to find matching pairs of cards by flipping them over two at a time. The game allows the user to reset and play again.
 
 
 ## What I Learned
-* SwiftUI’s Declarative Approach: Defined the UI by describing its desired state, allowing SwiftUI to manage updates automatically.
-* Anatomy of a SwiftUI App: Replaced storyboards and view controllers with @main, App, and ContentView to structure the app.
-* Live Previews: Utilized Xcode’s live preview feature for real-time feedback while developing the UI.
-* Building Views: Used SwiftUI components like VStack, Image, and Text to construct the interface.
-* View Modifiers: Applied view modifiers like .padding() and .foregroundStyle() to customize appearance and layout.
+* Create UI elements: Built a grid layout using LazyVGrid to dynamically display cards.
+* Handle user input: Implemented interaction with the cards by detecting taps and flipping them over.
+* Manage game state: Built game logic to track flipped cards, check for matches, and reset the game.
+* Enhance UI: Used SwiftUI components and customized styles to improve the user experience, including adding animations and custom colors for visual appeal.
 
 ## Features
-* Toggle between flashcard question and answer.
-* Change card color when swiping left or right.
-* Navigate through flashcards by swiping.
-* Reset deck to include all cards or only those needing more practice.
-* Create new flashcards and add them to the deck.
-* Save flashcards across app launches.
-* Delete flashcards from the deck.
+*Initial grid of face-down cards: On launching, a grid of cards is displayed, all facedown, indicating the start of the game.
+*Card flipping:
+*Users can tap on a card to flip it over and reveal the front.
+*Tapping a second card that doesn't match flips both back down.
+*Matching cards disappear from the grid.
+*Reset button:
+A reset button is available for users to shuffle and restart the game with all cards facedown again.
+*Game logic:
+The game automatically checks if two selected cards match.
+Non-matching cards return to the facedown position, and matching pairs are removed from the grid.
 
 
-![COP5930-005Lab4-ezgif com-video-to-gif-converter (1)](https://github.com/user-attachments/assets/e83d5fa1-ec4f-498a-a48c-e56effa9e573)
+![ezgif com-video-to-gif-converter (8)](https://github.com/user-attachments/assets/e68ef2e1-07ac-4320-8662-2701ec172565)
+
